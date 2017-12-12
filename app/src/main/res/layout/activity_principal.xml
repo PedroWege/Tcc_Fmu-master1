@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/cadastro"
+
+    android:orientation="vertical"
+    tools:context="com.example.wanderson.projeto.Activity.Principal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Seja Bem-Vindo"
+        android:textColor="?android:attr/colorLongPressedHighlight"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCalculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:gravity="center"
+        android:text="Calculo Rentável" />
+
+    <Button
+        android:id="@+id/btnRelatorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:gravity="center"
+        android:text="Relatório" />
+
+    <ToggleButton
+        android:id="@+id/btnCheckPosto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" />
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="SignOut Google"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textColorHighlight="@android:color/black"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorLink="@android:color/black" />
+
+
+</LinearLayout>

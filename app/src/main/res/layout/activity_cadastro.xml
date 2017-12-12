@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cadastro"
+
+    android:orientation="vertical"
+    tools:context="com.example.wanderson.projeto.Activity.Cadastro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edCadNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:hint="Nome"
+                android:inputType="textCapCharacters"
+                android:textColor="?android:attr/colorBackground"
+                android:textColorHint="?android:attr/colorBackground" />
+
+            <EditText
+                android:id="@+id/edCadSobreNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:hint="Sobre Nome"
+                android:inputType="textCapCharacters"
+                android:textColor="?android:attr/colorBackground"
+                android:textColorHint="?android:attr/colorBackground" />
+
+            <EditText
+                android:id="@+id/edCadEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                android:textColor="?android:attr/colorBackground"
+                android:textColorHint="?android:attr/colorBackground" />
+
+            <EditText
+                android:id="@+id/edCadSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:textColor="?android:attr/colorBackground"
+                android:textColorHint="?android:attr/colorBackground" />
+
+            <EditText
+                android:id="@+id/edCadConfirmarSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:hint="Confirma Senha"
+                android:inputType="textPassword"
+                android:textColor="?android:attr/colorBackground"
+                android:textColorHint="?android:attr/colorBackground" />
+
+            <RadioGroup
+                android:id="@+id/rgSexo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rgMasculino"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:text="M"
+                    android:textColor="?android:attr/colorBackground" />
+
+                <RadioButton
+                    android:id="@+id/rgFeminino"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/colorAccent"
+                    android:checked="true"
+                    android:text="F"
+                    android:textColor="?android:attr/colorBackground" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnGravar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:text="Registrar" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

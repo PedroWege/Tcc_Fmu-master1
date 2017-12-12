@@ -1,0 +1,106 @@
+﻿<resources>
+    <string name="app_name">Projeto</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="data_inicial">Data Inicial</string>
+    <string name="data_final">Data Final</string>
+
+    <string name="posto_user_check">Usuário Posto?</string>
+
+    <string name="slide_1_title">Perguntas a comunidade</string>
+    <string name="slide_1_description">
+        Encontre o melhor e mais barato combustivel bem perto de você!
+    </string>
+    <string name="slide_1_button_label">Label</string>
+    <string name="slide_1_button_message">
+        Message.
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="slide_2_title">Localização GPS</string>
+    <string name="slide_2_description">
+        Permita, ou não, o uso do localizador GPS de seu dispositivo.
+    </string>
+
+
+    <string name="grant_permissions">Liberar permissões</string>
+    <string name="mis_grant_permissions">Liberar permissões</string>
+    <string name="please_grant_permissions">
+        Para poder prosseguir é importante liberar as permissões de localização
+    </string>
+
+    <string name="slide_4_title">Termos e condições de uso</string>
+    <string name="slide_4_checkbox_label">Concordo com os termos e condições de uso</string>
+    <string name="slide_4_checkbox_error">
+        Você precisa concordar com os termos e condições de uso para prosseguir
+    </string>
+    <string name="slide_4_content">
+
+        <bold>POLITICA DE PRIVACIDADE</bold>
+
+        \n\nPolítica de privacidade refere-se ao seu uso do aplicativo de software Posto Bom (“Aplicativo”) para dispositivos móveis que foi criado por Posto Bom; O aplicativo Posto Bom tem o objetivo de facilitar o usuário a encontrar as melhores opções de posto de combustível em sua região, assim como auxiliar postos de combustível a fornecer o melhor atendimento a seus clientes. Para isto, é feito um cadastro simples com e-mail e senha para registro de preferências do usuário, uso do recurso de geolocalização presente na maioria dos aparelhos smartphones modernos para localização automática de postos em sua região.\n\n\n\n
+
+
+        <bold>Que informações o aplicativo coleta, e como são usadas?</bold>\n\n
+
+        <bold>Informações providenciadas pelo usuário</bold>
+        \n\n\n\n
+        O Aplicativo coleta as informações que você providencia quando faz download e registra o aplicativo; \n\n
+
+        Quando você faz seu registro conosco usando o Aplicativo, você providencia seu nome de usuário, e-mail e senha; caso seja administrador de posto de combustível, você fornecerá CNPJ e nome do posto, em adição aos dados já mencionados.  \n\n
+
+        Podemos usar seus dados de contato fornecidos para prover informações importantes, avisos necessários e promoções.\n\n
+        <bold>Informações coletadas automaticamente.</bold>\n\n
+
+        Adicionalmente, o aplicativo pode coletar certas informações automaticamente, incluindo, mas não limitado ao tipo de dispositivo móvel que usa, seu número de série único, seu endereço ip, seu sistema operacional, seu navegador de Internet.
+
+
+        \n\n\n\n<bold>O Aplicativo coleta informações em tempo real precisas da localização de seu dispositivo?</bold> \n\n
+
+        Quando você acessa o aplicativo móvel, podemos usar sua tecnologia de GPS ou similar, para determinar sua atual localização, assim determinando a posição de postos de combustível próximos. Nós não compartilharemos sua posição atual com outros usuários ou parceiros.
+        \n\n
+        Se não quizer que usemos sua localização para os motivos mencionados acima, você deve desativar seus serviços de localização no aplicativo móvel, localizado nas configurações de seu aparelho móvel.
+        \n\n\n\n
+
+
+        <bold>Terceiros terão informações obtidas por este aplicativo?</bold>
+
+        \n\nSim. Nós compartilharemos suas informações a terceiros nas maneiras descritas neste documento.\n\n
+
+        Podemos divulgar informações providas pelo usuário ou coletadas automaticamente:\n\n
+
+        Caso solicitado pela lei, tal como em uma intimação, ou processo legal similar\n\n
+
+        Quando acreditarmos em boa fé que divulgação é necessária para proteger nossos direitos, proteger sua segurança ou segurança de outrem, investigar fraude, ou responder a;solicitação do governo\n\n
+
+        Se a Posto Bom se envolver em uma fusão, aquisição ou venda de todos ou parte de seus ativos, você será notificado por e-mail sobre a mudança de propriedade\n\n\n\n
+
+
+        <bold>Quais são minhas opções caso eu não queira mais este aplicativo ou discorde de seus atuais termos de uso?</bold>\n\n
+
+        Você poderá parar toda a coleta de informações pelo aplicativo facilmente ao desinstala-lo. Você poderá usar os meios padrões de seu dispositivo móvel para desinstalação do aplicativo, ou via Play Store.\n\n
+
+
+        <bold>Política de Retenção de Dados e Gerenciamento de suas Informações</bold>\n\n
+
+        Nós iremos reter dados providos pelo usuário pelo período que utilizar o aplicativo, e por um período razoável após. Se deseja que deletemos dados de uso que você forneceu via aplicativo, por favor nos contate em postobom17@gmail.com   e responderemos o quanto antes. Note que alguns ou todos os dados fornecidos pelo usuário podem ser necessários para o correto funcionamento do Aplicativo.\n\n\n\n
+
+
+        <bold>Segurança</bold>\n\n
+
+        Nós provemos meios físicos, eletrônicos e procedurais para proteger informações que processamos e mantemos. Limitamos acesso às informações apenas à funcionários e prestadores de serviços autorizados que precisam destas informações para operar, desenvolver ou melhorar nosso aplicativo. Por favor tenha ciência que, apesar de usarmos de protocolos e práticas modernas de segurança da informação, nenhum sistema de segurança pode proteger de todas as quebras de segurança.\n\n\n\n
+
+        <bold>
+        Mudanças</bold>\n\n
+
+        Este termo de Política de Privacidade pode ser atualizado periodicamente por qualquer razão. Nós o notificaremos sobre qualquer mudança na Política de Privacidade via e-mail. Sugerimos que consulte este termo regularmente em caso de mudanças, pois uso continuado do aplicativo implica aprovação de todas as mudanças. \n\n\n\n
+
+
+        <bold>Seu Consentimento</bold>\n\n
+
+        Ao usar o Aplicativo Posto Bom, você consente ao nosso processamento de suas informações, como referido neste documento. "Processamento", significa usar dados em um computador/dispositivo portátil ou usando informações táteis em qualquer maneira, incluindo mas não limitado à, coletar, armazenar, deletar, usar, combinar, divulgar informação, todas as atividades acontecerão no Brasil. Se você reside fora do Brasil, suas informações serão transferidas, processadas e armazenadas sob padrões de privacidade Brasileiros.\n\n\n\n
+
+        <bold>Contato</bold> \n\nSe tiver quaisquer questões referente ao Termo de Política de Privacidade enquanto usa nosso aplicativo, ou questões sobre nossas práticas, por favor nos contate via e-mail em;Postobom17@gmail.com ;.\n\n
+
+    </string>
+</resources>

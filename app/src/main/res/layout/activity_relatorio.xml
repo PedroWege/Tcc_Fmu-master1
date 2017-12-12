@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.wanderson.projeto.Activity.Relatorio">
+
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="520dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <TextView
+            android:id="@+id/txDataInicial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editFim"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editFim"
+            android:layout_marginTop="16dp"
+            android:text="@string/data_inicial"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txDataFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txDataInicial"
+            android:layout_alignBottom="@+id/txDataInicial"
+            android:layout_alignLeft="@+id/editInicio"
+            android:layout_alignStart="@+id/editInicio"
+            android:text="@string/data_final"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnGerarRelatorio"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editInicio"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Gerar Relatorio"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editInicio"
+            android:layout_width="140dp"
+            android:layout_height="43dp"
+            android:layout_alignEnd="@+id/imageView3"
+            android:layout_alignRight="@+id/imageView3"
+            android:layout_below="@+id/txDataFinal"
+            android:layout_marginTop="26dp"
+            android:background="@color/editText"
+            android:ems="10"
+            android:inputType="date" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnGerarRelatorio"
+            android:src="@drawable/graph" />
+
+        <EditText
+            android:id="@+id/editFim"
+            android:layout_width="140dp"
+            android:layout_height="43dp"
+            android:layout_above="@+id/btnGerarRelatorio"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:background="@color/editText"
+            android:ems="10"
+            android:inputType="date"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="201dp" />
+
+        <TextView
+            android:id="@+id/resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnGerarRelatorio"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="66dp"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

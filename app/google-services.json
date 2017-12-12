@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "344544744287",
+    "firebase_url": "https://postobom-ec83f.firebaseio.com",
+    "project_id": "postobom-ec83f",
+    "storage_bucket": "postobom-ec83f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344544744287:android:c0b1160c44498c26",
+        "android_client_info": {
+          "package_name": "com.example.wanderson.projeto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344544744287-0tgred0jhkerr71iulgqqhal5kd5uue6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wanderson.projeto",
+            "certificate_hash": "a72d69a5262370e1add25dbeda3370db253ce34a"
+          }
+        },
+        {
+          "client_id": "344544744287-7abnn1tkja2k0unsrtjdso8j92p093sn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgbBJeII1RSLhJWJhBEIpXzbDOCQNmM0A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344544744287-7abnn1tkja2k0unsrtjdso8j92p093sn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
